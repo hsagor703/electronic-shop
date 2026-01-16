@@ -1,0 +1,200 @@
+[
+  {
+    "id":1,
+    "title": "Smart LED Table Lamp",
+    "bangla": "স্মার্ট এলইডি টেবিল ল্যাম্প",
+    "image": "https://i.ibb.co.com/led-lamp.jpg",
+    "price": 2450,
+    "discount": 12,
+    "sizes": [],
+    "color": ["White", "Black"],
+    "description": "Smart LED Table Lamp টি আধুনিক জীবনযাত্রার জন্য একটি energy-efficient lighting solution। Touch control এবং adjustable brightness এর মাধ্যমে এটি পড়াশোনা, কাজ বা রাতের আলো হিসেবে ব্যবহার করা যায়।\n\nEye-care technology ব্যবহারের ফলে দীর্ঘ সময় ব্যবহার করলেও চোখে চাপ পড়ে না। Minimal design হওয়ায় যেকোনো desk setup-এর সাথে সহজেই মানিয়ে যায়।",
+    "qna": [
+      { "question": "এটি কি touch control সাপোর্ট করে?", "answer": "হ্যাঁ, এতে advanced touch control রয়েছে।" }
+    ],
+    "reviews": 22,
+    "sold": 58,
+    "ratings": 4.5,
+    "info": ["Eye-care lighting", "Energy efficient", "Modern design", "Touch control"]
+  },
+  {
+    "id":2,
+    "title": "Wireless Bluetooth Headphones",
+    "bangla": "ওয়্যারলেস ব্লুটুথ হেডফোন",
+    "image": "https://i.ibb.co.com/bluetooth-headphone.jpg",
+    "price": 3250,
+    "discount": 15,
+    "sizes": [],
+    "color": ["Black", "Blue"],
+    "description": "এই Wireless Bluetooth Headphones শক্তিশালী bass এবং crystal-clear sound প্রদান করে। Long battery life থাকায় একটানা দীর্ঘ সময় গান শোনা বা কল করা যায়।\n\nComfortable ear cushions দীর্ঘ ব্যবহারের সময়ও আরাম নিশ্চিত করে।",
+    "qna": [
+      { "question": "ব্যাটারি কতক্ষণ ব্যাকআপ দেয়?", "answer": "প্রায় ১২–১৫ ঘণ্টা।" }
+    ],
+    "reviews": 41,
+    "sold": 96,
+    "ratings": 4.7,
+    "info": ["Deep bass", "Long battery life", "Noise reduction", "Comfort fit"]
+  },
+  {
+    "id":3,
+    "title": "Smart WiFi Router",
+    "bangla": "স্মার্ট ওয়াইফাই রাউটার",
+    "image": "https://i.ibb.co.com/router.jpg",
+    "price": 4850,
+    "discount": 10,
+    "sizes": [],
+    "color": ["White"],
+    "description": "Smart WiFi Router উচ্চগতির ইন্টারনেট সংযোগ নিশ্চিত করে। Dual-band technology ব্যবহারের ফলে একাধিক ডিভাইস একসাথে সংযোগ করলেও speed কমে না।",
+    "qna": [
+      { "question": "এটি কত Mbps পর্যন্ত সাপোর্ট করে?", "answer": "১০০০ Mbps পর্যন্ত।" }
+    ],
+    "reviews": 30,
+    "sold": 64,
+    "ratings": 4.4,
+    "info": ["Dual band", "High speed", "Wide coverage", "Stable connection"]
+  },
+  {
+    "id":4,
+    "title": "Portable Power Bank 20000mAh",
+    "bangla": "পোর্টেবল পাওয়ার ব্যাংক ২০০০০mAh",
+    "image": "https://i.ibb.co.com/powerbank.jpg",
+    "price": 2150,
+    "discount": 8,
+    "sizes": [],
+    "color": ["Black"],
+    "description": "20000mAh Power Bank একাধিকবার ফোন চার্জ করার সুবিধা দেয়। Fast charging support থাকায় দ্রুত চার্জ হয়।",
+    "qna": [
+      { "question": "এটি কি fast charging সাপোর্ট করে?", "answer": "হ্যাঁ, এতে fast charging রয়েছে।" }
+    ],
+    "reviews": 37,
+    "sold": 88,
+    "ratings": 4.6,
+    "info": ["High capacity", "Fast charging", "Portable design", "Safe protection"]
+  },
+  {
+    "id":5,
+    "title": "Smart Digital Watch",
+    "bangla": "স্মার্ট ডিজিটাল ঘড়ি",
+    "image": "https://i.ibb.co.com/smartwatch.jpg",
+    "price": 3950,
+    "discount": 14,
+    "sizes": [],
+    "color": ["Black", "Silver"],
+    "description": "Smart Digital Watch দৈনন্দিন স্বাস্থ্য পর্যবেক্ষণের জন্য একটি কার্যকর gadget। Heart rate, steps এবং sleep tracking সুবিধা রয়েছে।",
+    "qna": [
+      { "question": "এটি কি Android ও iOS সাপোর্ট করে?", "answer": "হ্যাঁ, উভয়ই সাপোর্ট করে।" }
+    ],
+    "reviews": 52,
+    "sold": 121,
+    "ratings": 4.8,
+    "info": ["Health tracking", "Smart notifications", "Water resistant", "Long battery"]
+  },
+  {
+    "id":6,
+    "title": "USB Rechargeable Desk Fan",
+    "bangla": "ইউএসবি রিচার্জেবল ডেস্ক ফ্যান",
+    "image": "https://i.ibb.co.com/desk-fan.jpg",
+    "price": 1450,
+    "discount": 5,
+    "sizes": [],
+    "color": ["White", "Green"],
+    "description": "USB Rechargeable Desk Fan কম বিদ্যুৎ খরচে শক্তিশালী airflow প্রদান করে। Compact হওয়ায় অফিস বা বাসায় সহজে ব্যবহারযোগ্য।",
+    "qna": [
+      { "question": "একবার চার্জে কতক্ষণ চলে?", "answer": "প্রায় ৬–৮ ঘণ্টা।" }
+    ],
+    "reviews": 18,
+    "sold": 47,
+    "ratings": 4.3,
+    "info": ["Low power", "Portable", "Quiet operation", "Rechargeable"]
+  },
+  {
+    "id":7,
+    "title": "Wireless Keyboard and Mouse Combo",
+    "bangla": "ওয়্যারলেস কিবোর্ড ও মাউস কম্বো",
+    "image": "https://i.ibb.co.com/keyboard-mouse.jpg",
+    "price": 2650,
+    "discount": 9,
+    "sizes": [],
+    "color": ["Black"],
+    "description": "এই Wireless Combo অফিস এবং home use-এর জন্য আদর্শ। Smooth typing এবং responsive mouse experience প্রদান করে।",
+    "qna": [
+      { "question": "এটি কি laptop ও desktop উভয়ের সাথে কাজ করে?", "answer": "হ্যাঁ।" }
+    ],
+    "reviews": 25,
+    "sold": 63,
+    "ratings": 4.5,
+    "info": ["Wireless connectivity", "Silent keys", "Ergonomic design", "Long battery"]
+  },
+  {
+    "id":8,
+    "title": "Smart Home Security Camera",
+    "bangla": "স্মার্ট হোম সিকিউরিটি ক্যামেরা",
+    "image": "https://i.ibb.co.com/security-camera.jpg",
+    "price": 4550,
+    "discount": 11,
+    "sizes": [],
+    "color": ["White"],
+    "description": "Smart Security Camera ২৪/৭ নজরদারি নিশ্চিত করে। Mobile app-এর মাধ্যমে live monitoring করা যায়।",
+    "qna": [
+      { "question": "এতে কি night vision আছে?", "answer": "হ্যাঁ, এতে night vision রয়েছে।" }
+    ],
+    "reviews": 33,
+    "sold": 71,
+    "ratings": 4.6,
+    "info": ["Live monitoring", "Night vision", "Motion detection", "Cloud support"]
+  },
+  {
+    "id":9,
+    "title": "Electric Kettle",
+    "bangla": "ইলেকট্রিক কেটলি",
+    "image": "https://i.ibb.co.com/electric-kettle.jpg",
+    "price": 2350,
+    "discount": 7,
+    "sizes": [],
+    "color": ["Silver"],
+    "description": "Electric Kettle দ্রুত পানি গরম করার জন্য উপযোগী। Auto shut-off system থাকায় এটি নিরাপদ।",
+    "qna": [
+      { "question": "এটি কত লিটার পানি ধারণ করতে পারে?", "answer": "১.৮ লিটার।" }
+    ],
+    "reviews": 29,
+    "sold": 66,
+    "ratings": 4.4,
+    "info": ["Fast boiling", "Auto shut-off", "Durable build", "Energy efficient"]
+  },
+  {
+    "id":10,
+    "title": "Bluetooth Portable Speaker",
+    "bangla": "ব্লুটুথ পোর্টেবল স্পিকার",
+    "image": "https://i.ibb.co.com/speaker.jpg",
+    "price": 2850,
+    "discount": 13,
+    "sizes": [],
+    "color": ["Black", "Red"],
+    "description": "Portable Bluetooth Speaker শক্তিশালী sound output দেয়। Outdoor ও travel use-এর জন্য উপযোগী।",
+    "qna": [
+      { "question": "এটি কি water resistant?", "answer": "হ্যাঁ, splash resistant।" }
+    ],
+    "reviews": 44,
+    "sold": 102,
+    "ratings": 4.7,
+    "info": ["Loud sound", "Portable", "Bluetooth 5.0", "Rechargeable"]
+  },
+  {
+    "id":11,
+    "title": "Smart Extension Power Strip",
+    "bangla": "স্মার্ট এক্সটেনশন পাওয়ার স্ট্রিপ",
+    "image": "https://i.ibb.co.com/power-strip.jpg",
+    "price": 1950,
+    "discount": 6,
+    "sizes": [],
+    "color": ["White"],
+    "description": "Smart Power Strip একাধিক ডিভাইস নিরাপদভাবে সংযোগের সুযোগ দেয়। Surge protection থাকায় electronic device নিরাপদ থাকে।",
+    "qna": [
+      { "question": "এতে কতটি socket আছে?", "answer": "৬টি socket।" }
+    ],
+    "reviews": 21,
+    "sold": 49,
+    "ratings": 4.5,
+    "info": ["Surge protection", "Multiple sockets", "Safe design", "Durable"]
+  }
+]
