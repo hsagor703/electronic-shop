@@ -8,13 +8,16 @@ export default function ProductDetailsPage({ params }) {
   const [loading, setLoading] = useState(true);
   const [product, setProduct] = useState(null);
 
-  useEffect(async () => {
-    const { slug } = await params;
-    setTimeout(() => {
-      const data = products.find((p) => p.id === Number(slug));
-      setProduct(data);
-      setLoading(false);
-    }, 1500); // simulate API delay
+  useEffect(() => {
+    const fetchPromise = async () => {
+      const { slug } = await params;
+      setTimeout(() => {
+        const data = products.find((p) => p.id === Number(slug));
+        setProduct(data);
+        setLoading(false);
+      }, 1500); // simulate API delay
+    };
+    fetchPromise();
   }, []);
 
   return (
