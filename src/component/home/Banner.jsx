@@ -1,7 +1,7 @@
 export default function Banner() {
   return (
-    <section className="relative bg-linear-to-r from-slate-900 via-gray-900 to-black text-white">
-      <div className="max-w-7xl mx-auto px-6 py-24 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
+    <section className="relative bg-linear-to-r from-slate-900 via-gray-900 to-black  rounded-2xl shadow-lg text-white">
+      <div className="max-w-7xl mx-auto px-6 pt-24 py-10 grid grid-cols-1 md:grid-cols-2 items-center gap-10">
         
         {/* Left Content */}
         <div>
