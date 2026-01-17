@@ -23,17 +23,16 @@ Follow these steps to run the project locally:
 ### 1️⃣ Clone the repository
 ```bash
 git clone https://github.com/hsagor703/electronic-shop
-
+```
 ### 2️⃣ Navigate to the project directory
 ```bash
 cd my-electronic-shop
-
+```
 ### 3️⃣ Install dependencies
 ```bash
 npm install
-
+```
 ### 4️⃣ Run the development server
-
 ```bash
 npm run dev
 # or
