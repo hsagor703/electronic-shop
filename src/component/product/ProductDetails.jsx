@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const ProductDetails = ({ product }) => {
@@ -5,9 +6,11 @@ const ProductDetails = ({ product }) => {
     <div className="max-w-6xl mx-auto p-6 grid grid-cols-1 md:grid-cols-2 gap-8">
       {/* Product Image */}
       <div className="bg-linear-to-r from-slate-900 via-gray-900 to-black p-4 rounded-2xl shadow-lg">
-        <img
+        <Image
           src={product.image}
           alt={product.title}
+          height={100}
+          width={500}
           className="w-full h-100 object-cover rounded-xl"
         />
       </div>

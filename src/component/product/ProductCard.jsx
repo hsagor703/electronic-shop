@@ -1,12 +1,15 @@
+import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 
 const ProductCard = ({ product }) => {
   return (
     <div className="bg-linear-to-r from-slate-900 via-gray-900 to-black p-4 rounded-2xl shadow-lg hover:shadow-2xl transition-shadow duration-300">
-      <img
+      <Image
         src={product.image}
         alt={product.title}
+        height={48}
+        width={100}
         className="w-full h-48 object-cover rounded-xl mb-4"
       />
       <h2 className="text-slate-100 font-semibold text-lg mb-1">

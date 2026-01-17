@@ -14,11 +14,9 @@ const Navbar = () => {
       <li>
         <NavLink href={"/products"}>Products</NavLink>
       </li>
+
       <li>
-        <NavLink href={"/blog"}>Blog</NavLink>
-      </li>
-      <li>
-        <NavLink href={"/contact"}>Contact</NavLink>
+        <NavLink href={"/about"}>About</NavLink>
       </li>
     </>
   );
