@@ -1,14 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-
+import logo from '../../../public/assests/logo.png'
 const Logo = () => {
   return (
     <div>
       <Link href={"/"} className="flex items-center">
         <Image className=""
-          alt="Hero-Kids-Logo"
-          src={"/assets/logo.png"}
+          alt="electronic-shop-Logo"
+          src={logo}
           width={60}
           height={60}
         />
