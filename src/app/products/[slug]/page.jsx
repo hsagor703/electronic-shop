@@ -3,12 +3,18 @@ import React, { useState, useEffect } from "react";
 import products from "../../../../public/electronic.json"; // your JSON
 import ProductDetailsSkeleton from "@/component/product/ProductDetailsSkeleton";
 import ProductDetails from "@/component/product/ProductDetails";
+import { useRouter } from "next/navigation";
 
 export default function ProductDetailsPage({ params }) {
   const [loading, setLoading] = useState(true);
   const [product, setProduct] = useState(null);
-
+  const router = useRouter()
   useEffect(() => {
+    const isAuth = localStorage.getItem("auth")
+    console.log(isAuth);
+    if (!isAuth) {
+      router.push('/login')
+    }
     const fetchPromise = async () => {
       const { slug } = await params;
       setTimeout(() => {

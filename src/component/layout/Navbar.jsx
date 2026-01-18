@@ -1,11 +1,29 @@
 "use client";
-import React from "react";
+import React, { use, useEffect, useState } from "react";
 import Logo from "./Logo";
-// import NavLink from "../buttons/NavLink";
 import Link from "next/link";
 import { FiShoppingCart } from "react-icons/fi";
 import NavLink from "../buttons/NavLink";
+import Swal from "sweetalert2";
 const Navbar = () => {
+  const [isAuth, setIsAuth] = useState(null);
+  useEffect(() => {
+    const auth = localStorage.getItem("auth");
+    setIsAuth(auth === "true");
+  }, []);
+
+  const handleLogout = () => {
+    localStorage.removeItem("auth");
+    setIsAuth(false);
+    Swal.fire({
+      title: "LogOut Successfully",
+      icon: "success",
+      draggable: true,
+    });
+  };
+
+  if (isAuth === null) return null;
+
   const nav = (
     <>
       <li>
@@ -54,12 +72,21 @@ const Navbar = () => {
         <ul className="menu menu-horizontal px-1">{nav}</ul>
       </div>
       <div className="navbar-end space-x-4 pr-4  lg:pr-4">
-        <Link className="btn btn-primary btn-outline" href={"/cart"}>
+        <Link className="btn btn-primary btn-outline" href={"/"}>
           <FiShoppingCart />
         </Link>
-        <Link href={"/login"}>
-          <button className="btn btn-primary btn-outline">Login</button>
-        </Link>
+        {isAuth ? (
+          <button
+            onClick={handleLogout}
+            className="btn btn-primary btn-outline"
+          >
+            Logout
+          </button>
+        ) : (
+          <Link href={"/login"}>
+            <button className="btn btn-primary btn-outline">Login</button>
+          </Link>
+        )}
       </div>
     </div>
   );

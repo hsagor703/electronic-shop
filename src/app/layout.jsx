@@ -25,15 +25,15 @@ export default function RootLayout({ children }) {
         className={`bg-primary] ${geistSans.variable} ${geistMono.variable} antialiased bg-slate-950
 `}
       >
-        <header className=" md:w-11/12 mx-auto">
-          <Navbar />
-        </header>
-        <main className="py-2 md:w-11/12 mx-auto min-h-[calc(100vh-220px)]">
-          {children}
-        </main>
-        <footer>
-          <Footer />
-        </footer>
+          <header className=" md:w-11/12 mx-auto">
+            <Navbar />
+          </header>
+          <main className="py-2 md:w-11/12 mx-auto min-h-[calc(100vh-220px)]">
+            {children}
+          </main>
+          <footer>
+            <Footer />
+          </footer>
       </body>
     </html>
   );
