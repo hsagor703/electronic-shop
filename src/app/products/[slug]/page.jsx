@@ -10,11 +10,11 @@ export default function ProductDetailsPage({ params }) {
   const [product, setProduct] = useState(null);
   const router = useRouter()
   useEffect(() => {
-    const isAuth = localStorage.getItem("auth")
-    console.log(isAuth);
-    if (!isAuth) {
-      router.push('/login')
-    }
+    // const isAuth = localStorage.getItem("auth")
+    // console.log(isAuth);
+    // if (!isAuth) {
+    //   router.push('/login')
+    // }
     const fetchPromise = async () => {
       const { slug } = await params;
       setTimeout(() => {
